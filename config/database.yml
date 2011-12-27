@@ -15,16 +15,16 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: rortut_development
+  database: rortuts_development
   pool: 5
-  username: rortut
-  password:
+  username: rortuts
+  password: takeiteasy
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
   # domain sockets, so uncomment these lines.
-  #host: localhost
-  #port: 5432
+  host: localhost
+  port: 5432
 
   # Schema search path. The server defaults to $user,public
   #schema_search_path: myapp,sharedapp,public
@@ -41,15 +41,15 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: rortut_test
+  database: rortuts_test
   pool: 5
-  username: rortut
-  password:
+  username: rortuts
+  password: takeiteasy
 
 production:
   adapter: postgresql
   encoding: unicode
-  database: rortut_production
+  database: rortuts_production
   pool: 5
-  username: rortut
-  password:
+  username: rortuts
+  password: takeiteasy
