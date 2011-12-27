@@ -44,12 +44,11 @@ test:
   database: rortuts_test
   pool: 5
   username: rortuts
-  password: takeiteasy
-
+  password: 
 production:
   adapter: postgresql
   encoding: unicode
   database: rortuts_production
   pool: 5
   username: rortuts
-  password: takeiteasy
+  password: 
