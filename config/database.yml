@@ -41,10 +41,10 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: rortuts_test
+  database: rortuts_development
   pool: 5
   username: rortuts
-  password: 
+  password: takeiteasy
 production:
   adapter: postgresql
   encoding: unicode
