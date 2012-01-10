@@ -41,7 +41,7 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: rortuts_development
+  database: rortuts_test
   pool: 5
   username: rortuts
   password: takeiteasy
